@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css@?family-Poppins:wght@200;300;400;600;800&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Poppins', cursive;
+}
+header .hero {
+    height: 60vh;
+    background-image: url(/src/images/flower.png);
+    background-attachment: scroll;
+    background-position: 0 70%;
+    background-repeat: no-repeat;
+    border-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0,0.4),
+        rgba(0, 0, 0,0.4)
+    
+    ) fill 1;
+    place-content: center;
+    position: relative;
+    text-align: center;
+
+}
+header {
+    margin-bottom: 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.hero h2,p{
+    margin-bottom: 1.5rem;
+    min-width: 30px;
+}
+.hero button {
+    background: transparent;
+    border: none;
+    color: aliceblue;
+    outline: 2px solid red;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.hero button:hover {
+    background: #249;
+    transition: 0.4s ease-in-out;
+    opacity: 1;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.logo-box h1 {
+    font-size: 4rem;
+    color: #249;
+    font-weight: 700;
+    cursor: pointer;
+}
+.home {
+    color: red;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+main{
+    border: thin solid blue;
+    text-align: center;
+    min-height: 30px;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+  
+}
+.text-p {
+    /* margin: 20px 30px; */
+    max-height: 30px;
+    gap: 5%;
+    bottom: 10%;
+    padding: 20px 30px;text-align: center;
+
+}
+.text-box{
+    border-bottom:thick solid orange;
+    width: 100px;
+    position: absolute;
+    right:580px;
+}
+.image-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.item1 img {
+    font-size: 5px;
+    width: 40px;
+    border: 2px solid salmon;
+    border-radius: 50%;
+    padding: 10px;
+}
+footer {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: aliceblue;
+    background: #321059;
+}
+/* p{
+    text-align: center;
+} */
