@@ -4,90 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Logo position Behind Text</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<style>
-    .containers {
-    display: grid !important;
-    grid-template-columns:repeat(3, auto) ;
-    gap: 10px;
-    width: 100%;
-
-   border: thin solid red;
-   margin: auto;
-   padding-block: 3rem;
-   border-radius: 10px;
-
-}
-
-.containers :nth-child(1){
-    background-color: transparent;
-}
-.containers :nth-child(2){
-    background-color: transparent;
-}
-.containers :nth-child(3){
-    margin: auto;
-}
-.containers :nth-child(4){
-    margin: auto;
-}
-.containers :nth-child(5){
-   margin: auto;
-}
-.containers :nth-child(6){
-   margin: auto;
-}
-.containers :nth-child(7){
-   margin: auto;
-}
-.containers :nth-child(8){
-   margin: auto;
-}
-h4 {
-    display: flex;
-    padding: 35px;
-    margin-top: -67px;
-    margin-left: 10px;
-    position: absolute;
-    text-transform: uppercase;
-    color: red;
-}
-.box_1 h4 img {
-    display: flex;
-    align-items: center;
-    
-    
-}
-.link-up {
-    display: block;
-    text-align: center;
-}
-strong {
-    text-transform: uppercase;
-    font-size: 30px;
-    font-weight: 700;
-    color: red;
-    letter-spacing: 1px;
-}
-.link-up p {
-    margin: auto;
-    padding: 0px;
-    width: 60%;
-    margin-bottom: 20px;
-}
-img {
-    width: 40px;
-    margin-top: 10px;
-}
-p {
-    
-    padding-left: 15px;
-    margin: auto;
-    font-weight: 500;
-    margin-left: 30px;
-}
-</style>
 <body>
+    <header>
+            <div class="box">
+                <img src="./images/favicon1.ico" alt="Logo">
+                <a href="./indes.html">Edi_CeM24</a>
+            </div>
+            <div class="box-2">
+                <ul>
+                   <li><a href="#">About</a></li> 
+                   <li><a href="#">Contact</a></li> 
+                   <li><a href="#">Service</a></li> 
+                   <li><a href="#">Dept</a></li> 
+                   <li><a href="#">Login</a></li> 
+                </ul>
+            </div>
+    </header>
     <div class="link-up">
         <strong>skillup, gain digital advantage & move forward</strong>
     <p>
@@ -165,10 +99,14 @@ p {
             <h4>computer operation</h4>
             <p>
                 Ms word, Excel, Access, Power point,<br> Appreciation, Internet, uasag,
-                IoT,<br>  Digital market  marketing, etc.
+                IoT,<br>  Digital marketing, etc.
 
             </p>
         </div>
+       
     </div>
+    <footer>
+        All rights reserved @ <script>document.write(new Date().getFullYear());</script>
+    </footer>
 </body>
 </html>

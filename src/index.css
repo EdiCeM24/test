@@ -1,0 +1,169 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.grid-container {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    width: 100%;
+    background-color: #203040;
+    flex-wrap: wrap;
+    padding: 20px 30px;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+}
+.brand a {
+    gap: 2rem;
+    color: aliceblue;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.main {
+    display: flex;
+    text-align: center;
+    float: right;
+    padding: 0px 47px;
+    margin-top: -60px;
+    top: 0;
+    position: relative;
+    flex-wrap: wrap;
+}
+.demo {
+    display: flex;
+    align-items: center;
+    top: 0;
+    position: absolute;
+    left: 0;
+    margin-left:  -380%;
+    padding: 2px 20px;
+    gap: 30px;
+}
+.demo a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: aliceblue;
+}
+.sect-text-box {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+.container {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    margin-top: 75%;
+    margin-left: 20%;
+}
+.main-1 {
+    width: 300px;
+    height: 300px;
+    position: relative; 
+    margin-top: -90%;
+    margin-left: 80px;
+    margin-bottom: 60px;
+    overflow: hidden;  /* here is added*/
+    align-items: center;
+    justify-content: center;
+}
+.sect-1 {
+    top: 0;
+    position: absolute;
+    text-align: center;
+    color: aquamarine;
+    margin-left: 40px;
+    margin-top: 45%;
+}
+.img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.image1 {
+    width: 100%;
+    height: 100%;
+    background-color: royalblue;
+    position: absolute;
+    top: 0;
+    transition: 2s ease-in-out;
+    border-radius: 10px;
+    transform: translateX(-100%);   /* here is added*/
+}
+.main-1:hover .image1 {
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    transform: translateX(0); /* here is added*/
+}
+/* this is the second one */
+.main-2 {
+    width: 300px;
+    height: 300px;
+    margin: 20px 80px;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+.image2 {
+    width: 100%;
+    height: 0%;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    transition: 2s ease-in-out;
+    border-radius: 10px;
+    transform: translateX(-100%);
+}
+.main-2:hover .image2 {
+    opacity: .5;
+    width: 100%;
+    height: 100%;
+    transform: translateY(0);
+}
+.sect-2 {
+    top: 0;
+    position: absolute;
+    color: aliceblue;
+    padding: 20px 40px;
+}
+footer {
+    background-color: #203040;
+    width: 100%;
+    display: block;
+    text-align: center;
+    justify-content: space-between;
+    color: aliceblue;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    padding: 30px 50px;
+}
+footer a {
+    color: aliceblue;
+    text-decoration: none;
+}

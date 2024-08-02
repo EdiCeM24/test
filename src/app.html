@@ -4,85 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>position</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            height: 100vh;
-        }
-        header {
-            display: flex;
-            top: 0;
-            left: 0;
-            width: 100%;
-            z-index: 1;
-            background: red;
-            height: 50%;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .brand {
-            padding: 50px;
-        }
-        .brand a {
-            text-decoration: none;
-            font-size: 25px;
-            color: aliceblue;
-            font-weight: 600;
-        }
-        .main {
-            display: flex;
-            top: 20px;
-            align-items: center;
-            height: 100vw;
-            position: relative;
-            right: 0;
-        }
-        .main .demo {
-            right: 40px;
-            margin-top: -150%;
-            margin-left: -30%;
-            position: absolute;
-            justify-content: space-between;
-        }
-        .demo a {
-            margin-top: 20%;
-            margin: 30px 50px;
-            text-decoration: none;
-            font-size: 20px;
-            text-transform: uppercase;
-            color: aliceblue;
-            font-weight: 600;
-            padding: 10px 18px;
-        }
-    </style>
+    <link rel="stylesheet" href="index.css">
+   
 </head>
 <body>
-    <header>
-        <div class="brand">
-            <a href="#">Home</a>
+    <div class="grid-container">
+        <header>
+            <div class="brand">
+                <img src="./images/favicon1.ico" alt="Logo">
+                <a href="./app.html">Edi_Mars</a>
+            </div>
+        </header>
+        
+        <div class="main">
+            <div class="demo">
+                <a href="#">Dept</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">organization</a> 
+            </div>
         </div>
-        <div class="brand">
-            <a href="#">menu</a>
+        <div class="sect-text-box">
+            <h2>Position and Hover</h2>
+            <p>For those of you learning css new need to improve your styling in studying these two facts for your styling.</p>
         </div>
-    </header>
-    <div class="main">
-        <div class="demo">
-            <a href="#">Dept</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-            <a href="#">organization</a> 
+        
+        <div class="container">
+            <div class="main-1">
+                <img class="img" src="./images/flower.png" alt="Logo">
+        
+                <div class="image1">
+                    <p class="sect-1">SPecificity</p> <!---text has been taken into hovering div.--->
+                </div>
+            </div>
+            <div class="main-2">
+                <img class="img" src="./images/food2.png" alt="Logo">
+                
+                <div class="image2">
+                    <p class="sect-2">Production is the power of a Nation</p>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="hover-img">
-        <div class="image1">
-            <img src="" alt="Logo">
-            <p class="sect-1">SPecificity</p>
-        </div>
-        <div class="image2">
-            <img src="" alt="Logo">
-            <p class="sect-2">SPecificity</p>
-        </div>
+        <footer>
+            All rights reserved @ <script>document.write(new Date().getFullYear());</script> &copy; <a href="#">Edi_mars</a> 
+        </footer>
     </div>
 </body>
 </html>
